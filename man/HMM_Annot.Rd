@@ -61,12 +61,10 @@ PtInit=8,theta=0.4,int.max=8,max.iter=1000,header=TRUE,sep = "\t", ...)
     A flagdb file which has the specific form to be input in the Flagdb++ software. 
 }
 \references{ 
-Unsupervised Classification for Tiling Arrays: ChIP-chip and Transcriptome. Caroline Berard, Marie-Laure Martin-Magniette, Veronique Brunaud, Sebastien Aubourg, Stephane Robin, arXiv:1104.5429v1.
- 
+    Unsupervised Classification for Tiling Arrays: ChIP-chip and Transcriptome. Caroline Berard, Marie-Laure Martin-Magniette, Veronique Brunaud, Sebastien Aubourg, Stephane Robin, Statistical Applications in Genetics and Molecular Biology, 10(50), 2011.
  }
 
 \author{ C. Berard, caroline.berard@agroparistech.fr  }
 \seealso{HMM, Mixture\_Annot, Bidim\_Gaussian\_Mixture, HMM\_Annot\_restart0}
 
-\keyword{ }
 

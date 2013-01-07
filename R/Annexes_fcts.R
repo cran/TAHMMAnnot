@@ -172,7 +172,7 @@ Sort_file= function(fileIN="data_3colonnes_chr4_MoyenneDyeswap.txt",fileOUTdata=
 
 {
 
-data = read.table(fileIN,h=TRUE)
+data = read.table(fileIN,header=TRUE)
 
 
 IS1 = data[,2][order(data$ID)];

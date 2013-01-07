@@ -12,17 +12,10 @@
   \item{B       }{Matrix  }
   
 }
-\details{
-  
-}
+
 \value{
   Return the value of the product between A transpose, B and A.
 }
-\references{ 
-
- }
-
-\seealso{}
 
 \keyword{internal}
 

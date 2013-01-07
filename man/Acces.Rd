@@ -12,16 +12,10 @@
   \item{i       }{Row of the matrix. }
   \item{j   }{Column of the matrix.  }
 }
-\details{
-  
-}
+
 \value{
   The value of the element mat[i,j].
 }
-\references{ 
 
- }
-
-\seealso{}
 
 \keyword{internal }

@@ -14,15 +14,10 @@
   \item{n}{The number of observations.}
   \item{K}{The number of groups.}
 }
-\details{
-  
-}
+
 \value{
   F vector. Useful to calculate the posterior probabilities in the backward step.
 }
-\references{ 
-
- }
 
 \seealso{BackwardR,ForwardAnnotR,ForwardAnnotrestart0R}
 

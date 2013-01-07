@@ -42,11 +42,8 @@ graph,Norm,MeanDyeswap,name.chr,sep.read="\t")
 \value{
   The files formatted for the analyses with 3 columns, by chromosome and by strand.
 }
-\references{ 
 
- }
 \author{ C. Berard, caroline.berard@agroparistech.fr    }
 \seealso{Normalisation\_ANOVA}
 
-\keyword{ }
-\keyword{ }
+

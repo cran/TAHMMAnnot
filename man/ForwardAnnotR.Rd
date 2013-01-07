@@ -16,15 +16,11 @@
   \item{K}{The number of groups.}
   \item{p}{Number of annotation categories.}
 }
-\details{
-  
-}
+
 \value{
   F vector. Useful to calculate the posterior probabilities in the backward step.
 }
-\references{ 
 
- }
 
 \seealso{BackwardAnnotR,ForwardR,ForwardAnnotrestart0R}
 

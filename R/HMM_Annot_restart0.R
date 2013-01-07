@@ -11,7 +11,7 @@ HMM_Annot_restart0 = function(color=c("navajowhite","grey","black","green","red"
 library(mnormt)
 path = attr(as.environment(match("package:TAHMMAnnot",search())),"path")
 
-data = read.table(fileIN,h=header,sep=sep, ...);
+data = read.table(fileIN,header=header,sep=sep, ...);
 ID = data$ID;
 n=length(ID)
 Int1 = data[,match(var1, names(data))]

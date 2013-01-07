@@ -18,10 +18,6 @@
 \value{
   The product of matrices for the estimator of the dispersion matrix of a group k. 
 }
-\references{ 
 
- }
-
-\seealso{}
 
 \keyword{internal}

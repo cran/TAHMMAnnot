@@ -12,16 +12,9 @@
   \item{K   }{Number of groups.  }
 
 }
-\details{
-  
-}
+
 \value{
   A matrix (n*K) of the posterior probabilities with 0 or 1.
 }
-\references{ 
-
- }
-
-\seealso{}
 
 \keyword{internal }

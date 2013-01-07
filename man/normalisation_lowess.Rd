@@ -25,11 +25,8 @@
 \value{
   The files formatted for the analyses with 3 columns, by chromosome and by strand.
 }
-\references{ 
 
- }
 
 \seealso{Normalisation\_ANOVA, Process\_norm}
 \author{ C. Berard, caroline.berard@agroparistech.fr    }
-\keyword{ }
-\keyword{ }
+

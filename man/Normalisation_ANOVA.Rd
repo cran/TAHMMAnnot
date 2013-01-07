@@ -22,11 +22,6 @@
   - One file for the output data after normalization.
   - If the option graph=TRUE, pdf graphs before and after normalization.
 }
-\references{ 
 
- }
 \author{ C. Berard, caroline.berard@agroparistech.fr    }
-\seealso{}
 
-\keyword{ }
-\keyword{ }

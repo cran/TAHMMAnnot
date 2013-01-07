@@ -18,10 +18,6 @@
 \value{
   The output file is sorted according to the position along the chromosome.
 }
-\references{ 
 
- }
-
-\seealso{}
 
 \keyword{internal}

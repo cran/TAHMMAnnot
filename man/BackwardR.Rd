@@ -13,16 +13,12 @@
   \item{n}{The number of observations.}
   \item{K}{The number of groups.}
 }
-\details{
-  
-}
+
 \value{
   - G vector.
   - tau vector corresponds to the posterior probabilities vector.
 }
-\references{ 
 
- }
 
 \seealso{ForwardR,BackwardAnnotR,BackwardAnnotrestart0R}
 

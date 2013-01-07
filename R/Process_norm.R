@@ -12,10 +12,16 @@ cat("\n")
 
 if((nbchip == 1 & nbarray == 1) | Norm==FALSE)
 {
-  data = read.table(fileOUT,h=TRUE)
-  attach(data);
+  data = read.table(fileOUT,header=TRUE)
+  
+  ID = data$ID
+  CHIP = data$CHIP
+  ARRAY = data$ARRAY
+  DYE = data$DYE
+  TREATMENT = data$TREATMENT
+  
 
-  VALUE = log2(VALUE);
+  VALUE = log2(data$VALUE);
   CHIP = CHIP[order(ID)];
   ARRAY = ARRAY[order(ID)];
   DYE = DYE[order(ID)];

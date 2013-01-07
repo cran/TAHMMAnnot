@@ -10,15 +10,10 @@
 \arguments{
   \item{W  }{List of the K dispersion matrices.  }
 }
-\details{
-  
-}
+
 \value{
   Estimator of the D matrix which has same orientation for the two first components.
 }
-\references{ 
-
- }
 
 \seealso{matW}
 

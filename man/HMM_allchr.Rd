@@ -53,13 +53,11 @@ header=TRUE,sep = "\t", ...)
   The values are those of the HMM function for each chromosome.
 }
 \references{ 
-Unsupervised Classification for Tiling Arrays: ChIP-chip and Transcriptome. Caroline Berard, Marie-Laure Martin-Magniette, Veronique Brunaud, Sebastien Aubourg, Stephane Robin, arXiv:1104.5429v1.
-
+    Unsupervised Classification for Tiling Arrays: ChIP-chip and Transcriptome. Caroline Berard, Marie-Laure Martin-Magniette, Veronique Brunaud, Sebastien Aubourg, Stephane Robin, Statistical Applications in Genetics and Molecular Biology, 10(50), 2011.
  }
 
 \author{ C. Berard, caroline.berard@agroparistech.fr }
 \seealso{HMM\_Annot\_allchr, Melange\_Annot\_allchr, Melange\_gaussien\_bidim\_allchr, \cr
 HMM\_Annot\_restart0\_allchr}
 
-\keyword{ }
-\keyword{ }
+

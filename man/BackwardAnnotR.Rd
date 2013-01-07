@@ -16,16 +16,12 @@
   \item{K}{The number of groups.}
   \item{p}{Number of annotation categories.}
 }
-\details{
-  
-}
+
 \value{
   - G vector. 
   - tau vector corresponds to the posterior probabilities vector.
 }
-\references{ 
 
- }
 
 \seealso{ForwardAnnotR,BackwardR,BackwardAnnotrestart0R}
 

@@ -13,15 +13,11 @@
   \item{mu   }{Mean vector of the Gaussian.  }
   \item{Pi   }{Vector of the proportion in each group. }
 }
-\details{
-  
-}
+
 \value{
   A n*K matrix of posterior probabilities.
 }
-\references{ 
 
- }
 
 \seealso{tau}
 

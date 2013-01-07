@@ -52,11 +52,12 @@
 
 Normalisation_ANOVA = function (fileIN="Normalisation_data_Rep1.txt",fileOUTtext="Results_Normalisation_Rep1.txt",fileOUTdata="data_APRESnorm_Rep1.txt",graph=FALSE)
   {
-    
-data = read.table(fileIN,h=TRUE)
-attach(data);
 
-VALUE = log2(VALUE);
+data = read.table(fileIN,header=TRUE)
+
+VALUE = log2(data$VALUE);
+ID = data$ID
+TREATMENT = data$TREATMENT
 
 options(contrasts=c("contr.sum","contr.sum"))
 
@@ -64,9 +65,9 @@ fileIN2 = strsplit(fileIN,".txt")
 fileOUTgraph1 = paste("Before_",fileIN2,sep="")
 fileOUTgraph2 = paste("After_",fileIN2,sep="")
 
-CHIP = as.factor(CHIP);
-ARRAY = as.factor(ARRAY);
-DYE = as.factor(DYE);
+CHIP = as.factor(data$CHIP);
+ARRAY = as.factor(data$ARRAY);
+DYE = as.factor(data$DYE);
 
 nbpuce = length(levels(CHIP))
 nblame = length(levels(ARRAY))

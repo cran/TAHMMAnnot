@@ -10,7 +10,7 @@ file.OUT="Output_CHR01.txt",file.INIT="Graph_init_CHR01.png",file.param="Fichier
 
 library(mnormt)
 
-data = read.table(fileIN,h=header,sep=sep, ...);
+data = read.table(fileIN,header=header,sep=sep, ...);
 ID = data$ID;
 n=length(ID)
 Int1 = data[,match(var1, names(data))]

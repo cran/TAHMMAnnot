@@ -19,8 +19,8 @@ normalisation_lowess<-function(fileIN="lame.txt",MeanDyeswap=TRUE,Lowess=TRUE,gr
     {
       if (graph == TRUE)
         pdf(file = paste(as.character(file[i,1]), ".pdf", sep = ""))
-      green<-read.table(paste(file[i,1],"_532.pair",sep=""),h=TRUE,skip=1,sep=sep.read)
-      red<-read.table(paste(file[i,1],"_635.pair",sep=""),h=TRUE,skip=1,sep=sep.read)
+      green<-read.table(paste(file[i,1],"_532.pair",sep=""),header=TRUE,skip=1,sep=sep.read)
+      red<-read.table(paste(file[i,1],"_635.pair",sep=""),header=TRUE,skip=1,sep=sep.read)
       #enlever le underscore des ID
       if (underscore==TRUE)
       {
@@ -77,8 +77,8 @@ normalisation_lowess<-function(fileIN="lame.txt",MeanDyeswap=TRUE,Lowess=TRUE,gr
         file<-system("ls RawData*",TRUE)
       for (n in 1:length(name.chr))
         {
-          f1<-read.table(file[grep(name.chr[n],file)[1]],h=TRUE)
-          f2<-read.table(file[grep(name.chr[n],file)[2]],h=TRUE)
+          f1<-read.table(file[grep(name.chr[n],file)[1]],header=TRUE)
+          f2<-read.table(file[grep(name.chr[n],file)[2]],header=TRUE)
           res<-data.frame(ID=f1[,1],IS1=(f1$IS1+f2$IS2)/2,IS2=(f1$IS2+f2$IS1)/2)
           fileOUT<-paste("MeanDyeswap_",name.chr[n],".txt",sep="")
           write.table(res,fileOUT,row.names=FALSE,sep=sep.write)
